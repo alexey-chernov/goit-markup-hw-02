@@ -82,6 +82,7 @@ body {
   padding-left: 215px;
   padding-right: 215px;
   width: auto;
+  align-content: center;
   align-tracks: normal;
   font-size: small;
 }
@@ -148,6 +149,19 @@ body {
   line-height: 31px;
   letter-spacing: 0.03em;
   text-decoration: none;
+}
+
+.logotype-part1 {
+  color: #2196f3;
+}
+
+.logotype-part2 {
+  color: #000000;
+}
+
+.img-size {
+  width: 100%;
+  height: 100%;
 }
 
 .link-study {
