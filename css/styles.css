@@ -3,6 +3,51 @@ body {
   font-style: normal;
 }
 
+.nav-link {
+  display: flex;
+}
+
+.header-nav,
+.nav-list,
+.contacts-list {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-list {
+  margin-left: 10px;
+  padding-left: 93px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.header-nav {
+  align-items: center;
+}
+
+.nav-list li {
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 10px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.contacts-list {
+  padding-left: 1078px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  position: absolute;
+}
+
+.contacts-list li:not(:last-child) {
+  margin-right: 40px;
+}
+
+.nav-link:hover {
+  color: #2196f3;
+}
+
 .hero {
   background-color: #2f303a;
   padding-top: 100px;
@@ -43,6 +88,8 @@ body {
   padding-left: 215px;
   padding-right: 215px;
   width: auto;
+  display: flex;
+  list-style-type: none;
   align-self: center;
   font-size: small;
 }
@@ -77,57 +124,43 @@ body {
 }
 
 .ourworking {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   padding-left: 215px;
   padding-right: 215px;
   width: auto;
+  display: flex;
+  list-style-type: none;
   align-content: center;
   align-tracks: normal;
   font-size: small;
 }
 
-.ourworking-title {
-  align-self: center;
+.working-command-title {
+  position: absolute;
+  align-content: center;
   color: #212121;
-  width: 376px;
-  height: 42px;
-  left: 612px;
-  top: 969px;
+  left: 50%;
+  transform: translate(-50%, 0);
   font-family: Roboto;
   font-style: normal;
-  font-weight: bold;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 18.75px;
   text-align: center;
   letter-spacing: 0.03em;
 }
 
 .ourcommand {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   padding-left: 215px;
   padding-right: 215px;
   width: auto;
+  display: flex;
+  list-style-type: none;
   align-self: center;
   text-align-last: center;
   font-size: small;
-}
-
-.ourcommand-title {
-  align-content: center;
-  width: 264px;
-  height: 42px;
-  left: 668px;
-  top: 1543px;
-  color: #212121;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 42px;
-  text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .ourcommand-names {
@@ -204,14 +237,12 @@ body {
 }
 
 .link-email {
-  padding-left: 100px;
   padding-top: 5px;
   text-decoration: none;
   color: rgba(21, 21, 21, 0.6);
 }
 
 .link-tel {
-  padding-left: 30px;
   padding-top: 5px;
   text-decoration: none;
   color: rgba(21, 21, 21, 0.6);
@@ -252,6 +283,8 @@ body {
 .link-portfolio-menu {
   padding-top: 94px;
   align-self: auto;
+  list-style-type: none;
+  display: flex;
 }
 
 .link-portfolio1 {
@@ -281,7 +314,6 @@ body {
   display: inline-table;
   margin-left: 5px;
   margin-right: 5px;
-  /* border: 1px solid #000;--> */
   padding: 3px;
 }
 
